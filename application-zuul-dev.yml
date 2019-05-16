@@ -10,6 +10,6 @@ zuul:
     plat:
       path: /plat/**
       service-id: jiehang-plat
-      product:
+    product:
       path: /product/**
       service-id: jiehang-product
