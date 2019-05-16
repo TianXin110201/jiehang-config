@@ -10,3 +10,17 @@ zuul:
     plat:
       path: /plat/**
       service-id: jiehang-plat
+      product:
+      path: /product/**
+      service-id: aigou-product
+hystrix:
+  command:
+    myusers-service:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 5000
+aigou-product: 
+  ribbon:
+    ConnectTimeout: 1000
+    ReadTimeout: 5000
