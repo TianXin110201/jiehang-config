@@ -5,6 +5,6 @@ spring:
     name: jiehang-plat
     datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql:///jiehang-plat?useSSL=false&useUnicode=true&characterEncoding=utf8
+    url: jdbc:mysql:///jiehang-parent?useSSL=false&useUnicode=true&characterEncoding=utf8
     username: root
     password: root
