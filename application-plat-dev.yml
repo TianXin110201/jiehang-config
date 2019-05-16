@@ -2,8 +2,8 @@ server:
   port: 8001
 spring:
   application:
-    name: jiehang-plat
-    datasource:
+    name: JIEHANG-PLAT
+  datasource:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql:///jiehang-parent?useSSL=false&useUnicode=true&characterEncoding=utf8
     username: root
