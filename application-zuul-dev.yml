@@ -12,7 +12,7 @@ zuul:
       service-id: jiehang-plat
       product:
       path: /product/**
-      service-id: aigou-product
+      service-id: jiehang-product
 hystrix:
   command:
     myusers-service:
