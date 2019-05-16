@@ -13,14 +13,3 @@ zuul:
       product:
       path: /product/**
       service-id: jiehang-product
-hystrix:
-  command:
-    myusers-service:
-      execution:
-        isolation:
-          thread:
-            timeoutInMilliseconds: 5000
-aigou-product: 
-  ribbon:
-    ConnectTimeout: 1000
-    ReadTimeout: 5000
